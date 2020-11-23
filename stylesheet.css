@@ -23,6 +23,10 @@ body {
       color: black;
   }
 
+  .bold {
+      font-weight: bold;
+  }
+
   .grey {
       background-color: #F2F2F2;
   }

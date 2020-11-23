@@ -1,8 +1,43 @@
+/* Règles générales */
+
 body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     margin: 65px;
+
+  }
+
+  li {
+      list-style-type: none;
+  }
+
+  ul {
+      display: flex;
+  }
+
+  a {
+      text-decoration: none;
+      color: black;
   }
 
   .grey {
-      background-color: #F2F2F2
+      background-color: #F2F2F2;
   }
+
+  /* Header */
+
+  header {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  #sign-in {
+      color: #0065FC;
+      font-weight: bold;
+  }
+
+  .menu > li {
+      padding: 0 43px;
+  }
+
+
+

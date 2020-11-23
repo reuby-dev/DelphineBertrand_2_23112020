@@ -1,9 +1,13 @@
 /* Règles générales */
 
+html {
+    font-size: 100%; /* permet au texte de s'adapter selon la taille de l'écran */
+}
+
 body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     margin: 65px;
-
+    font-size: 0.875em; /* défini la taille générale */
   }
 
   li {
@@ -21,6 +25,11 @@ body {
 
   .grey {
       background-color: #F2F2F2;
+  }
+
+  /*changement couleur icônes en bleu*/
+  i.fas {
+      color: #0065FC;
   }
 
   /* Header */

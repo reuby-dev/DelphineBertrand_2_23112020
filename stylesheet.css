@@ -1,1 +1,8 @@
-stylesheet.css
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 65px;
+  }
+
+  .grey {
+      background-color: #F2F2F2
+  }

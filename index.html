@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="utf-8" />
     <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve." />
     <title>Reservia</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <!-- intégration de googlefont-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <!-- intégration de Favicon-->
     <link rel="icon" type="image/png" href="Assets/logo/Favicon.png">
 </head>
 
+<!--Logo et barre de Nav-->
 <header>
     <img src="Assets/logo/Reservia.svg" alt="logo Reservia">
     <nav>
@@ -24,28 +26,33 @@
 </header>
 
 <body>
-    <section id="hébergements">
+<!-- 1ere section contenant descriptif site + search bar + filtres-->
+    <section>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
 
         <div id="search">
-        <i class="fas fa-map-marker-alt" style="color:black;"></i>
-        <input type="text" id="localisation" name="localisation" placeholder="Marseille, France" class="common-search">
-        <button class="common-search">Rechercher</button>
+            <i class="fas fa-map-marker-alt" style="color:black;"></i>
+            <input type="text" id="localisation" name="localisation" placeholder="Marseille, France" class="common-search">
+            <button class="common-search">Rechercher</button>
         </div>
 
+ 
         <ul>
-            <li><span>Filtres</span></li>
-            <li><i class="fas fa-money-bill-wave"></i>Economique</li>
-            <li><i class="fas fa-child"></i>Familial</li>
-            <li><i class="fas fa-heart"></i>Romantique</li>
-            <li><i class="fas fa-dog"></i>Animaux autorisés</li>
+            <li style="margin-right:30px;"><span>Filtres</span></li>
+            <li class="filter"><i class="fas fa-money-bill-wave round-icon"></i>Economique</li>
+            <li class="filter"><i class="fas fa-child round-icon"></i>Familial</li>
+            <li class="filter"><i class="fas fa-heart round-icon"></i>Romantique</li>
+            <li class="filter"><i class="fas fa-dog round-icon"></i>Animaux autorisés</li>
         </ul>
+        
+
         <i class="fas fa-info"></i>
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
     </section>
 
-    <section class="grey">
+<!--2eme section contenant Hébergements et + Populaire-->
+    <section>
         <h2>Hébergements à Marseille</h2>
 
         <img src="Assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="hébergement">
@@ -98,6 +105,8 @@
         <p>Nuit à partir de 68<span>€</span></p>
         <i class="fas fa-star"></i>
     </section>
+
+<!-- 3eme section comprenant activités -->
 
     <section id="activités">
         <h2>Activités à Marseille</h2>

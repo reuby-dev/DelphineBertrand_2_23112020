@@ -8,49 +8,87 @@ body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     margin: 65px;
     font-size: 0.875em; /* défini la taille générale */
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    /* texte en gras */
+
+span,#sign-in {
+    font-weight: bold;
+}
+
+    /* changement couleur en bleu*/
+
+i.fas,#sign-in {
+    color: #0065FC;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.menu > li {
+    padding: 0 43px;
+}
+
+/*section 1*/
+
+    /*barre de recherche*/
+
+  .fa-map-marker-alt {
+      margin:auto;
   }
 
-  li {
-      list-style-type: none;
-  }
+#search {
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    width: 400px;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
 
-  ul {
-      display: flex;
-  }
+     /* propriétés css communes dans la barre de recherche
+        valable pour button et input */
+.common-search{
+    border: none;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
 
-  a {
-      text-decoration: none;
-      color: black;
-  }
+button {
+    color: white;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    width: 100px;
+    height:40px;
+}
 
-  .bold {
-      font-weight: bold;
-  }
+input {
+    width: 250px;
+    height: 35px;
+    display: flex;
+    margin: auto 0;
+}
 
-  .grey {
-      background-color: #F2F2F2;
-  }
-
-  /*changement couleur icônes en bleu*/
-  i.fas {
-      color: #0065FC;
-  }
-
-  /* Header */
-
-  header {
-      display: flex;
-      justify-content: space-between;
-  }
-
-  #sign-in {
-      color: #0065FC;
-      font-weight: bold;
-  }
-
-  .menu > li {
-      padding: 0 43px;
-  }
-
-
-
+input::placeholder {
+    color:black;
+    padding-left: 20px;
+}

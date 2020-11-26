@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="utf-8" />
     <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve." />
     <title>Reservia</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
     <!-- intégration de googlefont-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
@@ -20,94 +21,105 @@
     <nav>
         <ul class="menu">
             <li><a href="#hébergements"">Hébergements</a></li>
-                <li><a href =" #activités">Activités</a></li>
-            <li id="sign-in">S'inscrire</li>
+            <li><a href ="#activités">Activités</a></li>
+            <li class="bold color-blue">S'inscrire</li>
         </ul>
     </nav>
 </header>
 
 <body>
-<!-- 1ere section contenant descriptif site + search bar + filtres-->
+    <!-- 1ere section contenant descriptif site + search bar + filtres-->
     <section>
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
 
         <div id="search">
-            <i class="fas fa-map-marker-alt" style="color:black;"></i>
-            <input type="text" id="localisation" name="localisation" placeholder="Marseille, France" class="common-search">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" id="localisation" name="localisation" placeholder="Marseille, France"
+                class="common-search">
             <button class="common-search">Rechercher</button>
         </div>
 
- 
+        <!--TODO changer couleur rond fon bleu et non gris-->
         <ul>
-            <li><span>Filtres</span></li>
-            <li class="filter border-grey"><div class="round-icon background-grey"><i class="fas fa-money-bill-wave"></div></i>Economique</li>
-            <li class="filter border-grey"><div class="round-icon background-grey"><i class="fas fa-child"></div></i>Familial</li>
-            <li class="filter border-grey"><div class="round-icon background-grey"><i class="fas fa-heart"></div></i>Romantique</li>
-            <li class="filter border-grey"><div class="round-icon background-grey"><i class="fas fa-dog"></div></i>Animaux autorisés</li>
+            <li class="bold">Filtres</li>
+            <li class="filter border-grey bold">
+                <div class="round-icon background-grey color-blue"><i class="fas fa-money-bill-wave"></div></i>Economique
+            </li>
+            <li class="filter border-grey bold">
+                <div class="round-icon background-grey color-blue"><i class="fas fa-child"></div></i>Familial
+            </li>
+            <li class="filter border-grey bold ">
+                <div class="round-icon background-grey color-blue"><i class="fas fa-heart"></div></i>Romantique
+            </li>
+            <li class="filter border-grey bold">
+                <div class="round-icon background-grey color-blue"><i class="fas fa-dog"></div></i>Animaux autorisés
+            </li>
         </ul>
-        
 
-        <div class="round-icon border-grey"><i class="fas fa-info"></i></div>
-        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        <!--TODO changer padding rond plus petit que pour les autres rond-->
+        <div class="flex">
+            <div class="round-icon border-grey color-blue"><i class="fas fa-info"></i></div>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
     </section>
 
-<!--2eme section contenant Hébergements et + Populaire-->
+    <!--2eme section contenant Hébergements et + Populaire-->
     <section>
         <h2>Hébergements à Marseille</h2>
 
         <img src="Assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="hébergement">
         <h3>Auberge de la Cannebière</h3>
-        <p>Nuit à partir de 25<span>€</span></p>
+        <p>Nuit à partir de 25<span class="bold">€</span></p>
         <i class="fas fa-star"></i>
 
         <img src="Assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="hébergement">
         <h3>Hôtel du port</h3>
-        <p>Nuit à partir de 52<span>€</span></p>
+        <p>Nuit à partir de 52<span class="bold">€</span></p>
         <i class="fas fa-star"></i>
 
         <img src="Assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="hébergement">
         <h3>Hôtel Les mouettes</h3>
-        <p>Nuit à partir de 76<span>€</span></p>
+        <p>Nuit à partir de 76<span class="bold">€</span></p>
         <i class="fas fa-star"></i>
 
         <img src="Assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hébergement">
         <h3>Hôtel de la mer</h3>
-        <p>Nuit à partir de 46<span>€</span></p>
+        <p>Nuit à partir de 46<span class="bold">€</span></p>
         <i class="fas fa-star"></i>
 
         <img src="Assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="hébergement">
         <h3>Auberge Le Panier</h3>
-        <p>Nuit à partir de 23<span>€</span></p>
+        <p>Nuit à partir de 23<span class="bold">€</span></p>
         <i class="fas fa-star"></i>
 
         <img src="Assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="hébergement">
         <h3>Hôtel chez Amina</h3>
-        <p>Nuit à partir de 96<span>€</span></p>
+        <p>Nuit à partir de 96<span class="bold">€</span></p>
         <i class="fas fa-star"></i>
 
-        <p><span>Afficher plus</span></p>
+        <p><span class="bold">Afficher plus</span></p>
 
         <h2>Les plus populaires</h2>
         <i class="fas fa-chart-line" style="color:black;"></i>
 
         <img src="Assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="hébergement">
         <h3>Hôtel Le soleil du matin</h3>
-        <p>Nuit à partir de 128<span>€</span></p>
+        <p>Nuit à partir de 128<span class="bold">€</span></p>
         <i class="fas fa-star"></i>
 
         <img src="Assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="hébergement">
         <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-        <p>Nuit à partir de 71<span>€</span></p>
+        <p>Nuit à partir de 71<span class="bold">€</span></p>
         <i class="fas fa-star"></i>
 
         <img src="Assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="hébergement">
         <h3>Hôtel Tout bleu et Blanc</h3>
-        <p>Nuit à partir de 68<span>€</span></p>
+        <p>Nuit à partir de 68<span class="bold">€</span></p>
         <i class="fas fa-star"></i>
     </section>
 
-<!-- 3eme section comprenant activités -->
+    <!-- 3eme section comprenant activités -->
 
     <section id="activités">
         <h2>Activités à Marseille</h2>

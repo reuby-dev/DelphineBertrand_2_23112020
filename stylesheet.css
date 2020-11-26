@@ -9,7 +9,8 @@ body {
     margin: 0px;
     font-size: 0.875em; /* défini la taille générale */
     max-width: 1200px;
-    margin-left:auto ;margin-right:auto
+    margin-left: auto;
+    margin-right: auto;
 }
 
 li {
@@ -27,20 +28,24 @@ a {
     color: black;
 }
 
-    /* texte en gras */
-
-span,#sign-in {
-    font-weight: bold;
-}
-
-    /* changement couleur en bleu A CHANGER*/
-
-i.fas,#sign-in {
-    color: #0065FC;
+i, .center {
     margin:auto;
 }
 
+.flex {
+    display: flex;
+}
+    /* texte en gras */
+
+.bold {
+    font-weight: bold;
+}
+
     /*couleurs*/
+
+.color-blue {
+    color: #0065FC;
+}
 
 .background-grey {
     background-color: #F2F2F2;

@@ -33,11 +33,21 @@ span,#sign-in {
     font-weight: bold;
 }
 
-    /* changement couleur en bleu*/
+    /* changement couleur en bleu A CHANGER*/
 
 i.fas,#sign-in {
     color: #0065FC;
     margin:auto;
+}
+
+    /*couleurs*/
+
+.background-grey {
+    background-color: #F2F2F2;
+}
+
+.border-grey {
+    border:solid medium #F2F2F2
 }
 
 /* Header */
@@ -58,7 +68,6 @@ header {
     /*Filtres*/
 
 .round-icon {
-    background-color: #F2F2F2;
     height:35px;
     width:35px;
     border-radius: 35px;
@@ -67,7 +76,6 @@ header {
 }
 
 .filter {
-    border: solid medium #F2F2F2;
     border-left: 1px;
     background-color:white;
     border-radius: 35px;

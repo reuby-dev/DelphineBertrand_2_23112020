@@ -7,17 +7,25 @@ html {
 body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     margin: 0px;
-    font-size: 0.875em; /* défini la taille générale */
+    font-size: 0.875rem; /* défini la taille générale */
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
 
-h2,{
-    margin-top:0;
+h1,.fa-chart-line{
+    margin: 0;
 }
 
-h3,p {
+h2 {
+    margin: 0 0 20px 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+p {
     margin: 10px 0;
 }
 
@@ -73,13 +81,13 @@ i, .fa-map-marker-alt {
 }
 
 .border-grey {
-    border:solid medium #F2F2F2
+    border:solid medium #d9d9d9;
 }
 
 /* Header */
 
 header {
-    padding-top: 35px;
+    padding: 50px 0;
 }
 
 .menu > li {
@@ -88,22 +96,40 @@ header {
 
 /*section 1*/
 
-    /*Filtres*/
+    /*info*/
 
-.round-icon {
-    height:35px;
-    width:35px;
+.info {
+    margin: 35px 0;
+}
+
+.round-icon-info {
+    height:25px;
+    width:25px;
+    border:solid thin #d9d9d9;
+    margin: auto 0;
+}
+
+.common-round-icon {
     border-radius: 35px;
     margin-right: 15px;
     display:flex;
+    
+}
+
+    /*Filtres*/
+
+.round-icon {
+    height:40px;
+    width:40px;
+    background-color: #deebff;
 }
 
 .filter {
     border-left: 1px;
     background-color:white;
     border-radius: 35px;
-    min-height:35px;
-    margin-left: 30px;
+    height:35px;
+    margin-left: 25px;
     padding-right:15px;
     display:flex;
     white-space: nowrap;
@@ -119,6 +145,7 @@ header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end;
+    margin: 20px 0 30px 0;
 }
 
      /* propriétés css communes dans la barre de recherche
@@ -198,13 +225,9 @@ input::placeholder {
     /*Populaire*/
 
 .description-pop {
-
     width:160px;
 }
 
-.fa-chart-line {
-    margin:auto 0;
-}
 .popular {
     width: 420px;
 }
@@ -221,4 +244,8 @@ input::placeholder {
 
 .img-size-horiz {
     border-radius: 15px 0 0 15px;
+}
+
+.test {
+    justify-content: flex-end;
 }

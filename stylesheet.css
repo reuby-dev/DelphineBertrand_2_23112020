@@ -36,7 +36,7 @@ a {
     color: black;
 }
 
-i, .center, .fa-map-marker-alt {
+i, .fa-map-marker-alt {
     margin: auto;
 }
 
@@ -197,16 +197,21 @@ input::placeholder {
 
     /*Populaire*/
 
+.description-pop {
+
+    width:160px;
+}
+
 .fa-chart-line {
     margin:auto 0;
 }
 .popular {
-    width:30%;
+    width: 420px;
 }
 
 .thumbnail-horiz {
     width: 345px;
-    padding:5px;
+    padding: 5px;
 }
 
 .img-horiz {

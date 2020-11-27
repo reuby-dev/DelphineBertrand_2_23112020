@@ -13,8 +13,12 @@ body {
     margin-right: auto;
 }
 
-h2 {
-    margin-top: 0;
+h2,{
+    margin-top:0;
+}
+
+h3,p {
+    margin: 10px 0;
 }
 
 li {
@@ -49,6 +53,10 @@ i, .center {
 
 .color-blue {
     color: #0065FC;
+}
+
+.grey-star {
+    color: #d9d9d9;
 }
 
 .background-grey {
@@ -161,13 +169,14 @@ input::placeholder {
     background-color: white;
     border-radius: 15px;
     margin-bottom: 30px;
+    padding:5px 5px 10px 5px;
+    box-shadow: 5px 5px 15px -5px #aaa;
 }
 
 .img-verti {
-    width: 235px;
+    width: 245px;
     height: 110px;
     margin: auto;
-    padding-top: 5px;
 }
 
 .img-size-verti {
@@ -175,6 +184,10 @@ input::placeholder {
     height: 100%;
     object-fit: cover;
     border-radius: 15px 15px 0 0;
+}
+
+.description-heberg {
+    padding-left: 15px;
 }
 
 .popular {

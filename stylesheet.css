@@ -36,13 +36,22 @@ a {
     color: black;
 }
 
-i, .center {
-    margin:auto;
+i, .center, .fa-map-marker-alt {
+    margin: auto;
 }
 
 .flex {
     display: flex;
 }
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
     /* texte en gras */
 
 .bold {
@@ -70,8 +79,6 @@ i, .center {
 /* Header */
 
 header {
-    display: flex;
-    justify-content: space-between;
     padding-top: 35px;
 }
 
@@ -104,10 +111,6 @@ header {
 }
 
     /*barre de recherche*/
-
-.fa-map-marker-alt{
-    margin: auto;
-}
 
 #search {
     background-color: #F2F2F2;
@@ -154,13 +157,6 @@ input::placeholder {
     margin-right: 40px;
 }
 
-.wrap {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width:100%;
-}
-
 .container {
     padding: 40px;
     border-radius: 15px;
@@ -168,23 +164,15 @@ input::placeholder {
 
 .thumbnail-verti {
     width: 245px;
-    background-color: white;
-    border-radius: 15px;
-    margin-bottom: 30px;
     padding:5px 5px 10px 5px;
-    box-shadow: 5px 5px 15px -5px #aaa;
 }
 
 .img-verti {
     width: 245px;
     height: 110px;
-    margin: auto;
 }
 
 .img-size-verti {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     border-radius: 15px 15px 0 0;
 }
 
@@ -192,21 +180,33 @@ input::placeholder {
     padding-left: 15px;
 }
 
-    /*propriétés communes des vignettes populaires et hébergement*/
+    /*propriétés communes entre hébergement et cat populaire*/
 
+.common-thumbnail {
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 15px -5px #aaa;
+}
+
+.common-img-size {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
     /*Populaire*/
+
+.fa-chart-line {
+    margin:auto 0;
+}
 .popular {
     width:30%;
 }
 
 .thumbnail-horiz {
     width: 345px;
-    background-color: white;
-    border-radius: 15px;
-    margin-bottom: 30px;
     padding:5px;
-    box-shadow: 5px 5px 15px -5px #aaa;
 }
 
 .img-horiz {
@@ -215,8 +215,5 @@ input::placeholder {
 }
 
 .img-size-horiz {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     border-radius: 15px 0 0 15px;
 }

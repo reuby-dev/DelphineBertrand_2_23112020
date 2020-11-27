@@ -135,4 +135,9 @@ input::placeholder {
     padding-left: 20px;
 }
 
-    /* infos*/
+/* Section 2*/
+
+.container {
+    padding: 40px;
+    border-radius: 35px;
+}

@@ -137,7 +137,43 @@ input::placeholder {
 
 /* Section 2*/
 
+.hebergements {
+    width: 90%;
+    margin-right: 20px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width:100%;
+}
+
 .container {
     padding: 40px;
     border-radius: 35px;
+}
+
+.img-verti {
+    width: 200px;
+    height: 90px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+
+.thumbnail-verti {
+    width: 200px;
+
+}
+
+.thumbnail-horiz {
+
+}
+
+.img-horiz {
+
 }

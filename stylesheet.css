@@ -1,24 +1,27 @@
-/* Règles générales */
+    /* Règles générales */
 
 html {
-    font-size: 100%; /* permet au texte de s'adapter selon la taille de l'écran */
+    font-size: 100%;
+    /* permet au texte de s'adapter selon la taille de l'écran */
 }
 
 body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     margin: 0px;
-    font-size: 0.875rem; /* défini la taille générale */
+    font-size: 0.875rem;
+    /* défini la taille générale */
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1,.fa-chart-line{
+h1,
+.fa-chart-line {
     margin: 0;
 }
 
 h2 {
-    margin: 0 0 20px 0;
+    margin: 0 0 25px;
 }
 
 h3 {
@@ -36,7 +39,7 @@ li {
 
 ul {
     display: flex;
-    padding:0;
+    padding: 0;
 }
 
 a {
@@ -44,7 +47,8 @@ a {
     color: black;
 }
 
-i, .fa-map-marker-alt {
+i,
+.fa-map-marker-alt {
     margin: auto;
 }
 
@@ -60,13 +64,15 @@ i, .fa-map-marker-alt {
     justify-content: space-between;
 }
 
-    /* texte en gras */
+
+/* texte en gras */
 
 .bold {
     font-weight: bold;
 }
 
-    /*couleurs*/
+
+/*couleurs*/
 
 .color-blue {
     color: #0065FC;
@@ -81,8 +87,9 @@ i, .fa-map-marker-alt {
 }
 
 .border-grey {
-    border:solid medium #d9d9d9;
+    border: solid medium #d9d9d9;
 }
+
 
 /* Header */
 
@@ -90,53 +97,56 @@ header {
     padding: 50px 0;
 }
 
-.menu > li {
+.menu>li {
     padding-left: 70px;
 }
 
-/*section 1*/
 
-    /*info*/
+/*section 1 - filtres et infos*/
+
+
+/*info*/
 
 .info {
     margin: 35px 0;
 }
 
 .round-icon-info {
-    height:25px;
-    width:25px;
-    border:solid thin #d9d9d9;
+    height: 25px;
+    width: 25px;
+    border: solid thin #d9d9d9;
     margin: auto 0;
 }
 
 .common-round-icon {
     border-radius: 35px;
     margin-right: 15px;
-    display:flex;
-    
+    display: flex;
 }
 
-    /*Filtres*/
+
+/*Filtres*/
 
 .round-icon {
-    height:40px;
-    width:40px;
+    height: 40px;
+    width: 40px;
     background-color: #deebff;
 }
 
 .filter {
     border-left: 1px;
-    background-color:white;
+    background-color: white;
     border-radius: 35px;
-    height:35px;
+    height: 35px;
     margin-left: 25px;
-    padding-right:15px;
-    display:flex;
+    padding-right: 15px;
+    display: flex;
     white-space: nowrap;
     align-items: center;
 }
 
-    /*barre de recherche*/
+
+/*barre de recherche*/
 
 #search {
     background-color: #F2F2F2;
@@ -148,9 +158,11 @@ header {
     margin: 20px 0 30px 0;
 }
 
-     /* propriétés css communes dans la barre de recherche
+
+/* propriétés css communes dans la barre de recherche
         valable pour button et input */
-.common-search{
+
+.common-search {
     border: none;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -172,13 +184,15 @@ input {
 }
 
 input::placeholder {
-    color:black;
+    color: black;
     padding-left: 20px;
 }
 
-/* Section 2*/
 
-    /* Hébergements */
+/* Section 2 - Herbegements et populaires*/
+
+
+/* Hébergements */
 
 .hebergement {
     margin-right: 40px;
@@ -191,7 +205,7 @@ input::placeholder {
 
 .thumbnail-verti {
     width: 245px;
-    padding:5px 5px 10px 5px;
+    padding: 5px 5px 10px 5px;
 }
 
 .img-verti {
@@ -208,10 +222,11 @@ input::placeholder {
 }
 
 .see-more {
-    font-size:1rem;
+    font-size: 1rem;
 }
 
-    /*propriétés communes entre hébergement et cat populaire*/
+
+/*propriétés communes entre hébergement et cat populaire*/
 
 .common-thumbnail {
     background-color: white;
@@ -226,10 +241,11 @@ input::placeholder {
     object-fit: cover;
 }
 
-    /*Populaire*/
+
+/*Populaire*/
 
 .description-pop {
-    width:160px;
+    width: 160px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -253,3 +269,78 @@ input::placeholder {
 .img-size-horiz {
     border-radius: 15px 0 0 15px;
 }
+
+
+/*Section 3 - Activité*/
+
+#activites {
+    margin-top: 65px;
+}
+
+
+/*Vignettes*/
+
+.thumbnail-verti {
+    width: 245px;
+    padding: 5px 5px 10px 5px;
+}
+
+.img-verti {
+    width: 245px;
+    height: 110px;
+}
+
+.img-size-verti {
+    border-radius: 15px 15px 0 0;
+}
+
+.description-heberg {
+    padding-left: 15px;
+}
+
+
+/*Grille*/
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+    
+  }
+
+  .box1 { 
+    grid-row-start: 1; 
+    grid-row-end: 3; 
+  } 
+
+  .box2 { 
+    grid-row-start: 1; 
+    grid-row-end: 2; 
+  }
+
+  .box3 {
+    grid-row-start: 2; 
+    grid-row-end: 3;  
+  }
+
+  .box4 { 
+    grid-row-start: 1; 
+    grid-row-end: 3; 
+  }
+
+  .box5 { 
+    grid-row-start: 1; 
+    grid-row-end: 2; 
+  }
+
+  .box6 { 
+    grid-row-start: 2; 
+    grid-row-end: 3; 
+  }
+
+
+.wrapper div {
+      background-color: orange;
+      border: solid medium red;
+  }

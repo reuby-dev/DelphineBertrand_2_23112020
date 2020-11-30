@@ -1,4 +1,4 @@
-    /* Règles générales */
+/* Règles générales */
 
 html {
     font-size: 100%;
@@ -8,11 +8,11 @@ html {
 body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     margin: 0px;
-    font-size: 0.875rem;
-    /* défini la taille générale */
+    font-size: 0.875rem; /* défini la taille générale de la police */
     width:100%;
 }
 
+    /*Défini la taille maximum du contenu du site*/
 .max-layout {
     max-width: 1400px;
     margin: auto;
@@ -25,6 +25,7 @@ li {
 
 ul {
     display: flex;
+    flex-wrap: wrap;
     padding: 0;
 }
 
@@ -38,6 +39,12 @@ i {
     margin: auto;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+    /*Radius*/
+
 .border-radius {
     border-radius:15px;
 }
@@ -45,6 +52,8 @@ i {
 .radius-top {
     border-radius: 15px 15px 0 0;
 }
+
+    /*Flexbox*/
 
 .flex {
     display: flex;
@@ -58,10 +67,7 @@ i {
     justify-content: space-between;
 }
 
-.bold {
-    font-weight: bold;
-}
-/*couleurs*/
+    /*couleurs*/
 
 .color-black{
     color:black;
@@ -75,45 +81,26 @@ i {
     color: #d9d9d9;
 }
 
-.border-grey {
-    border: solid medium #d9d9d9;
-}
-
 .background-grey {
     background-color: #F2F2F2;
 }
-
-.background-white {
-    background-color: white;
-}
-
 
 .box-shadow {
     box-shadow: 5px 5px 15px -5px #aaa;
 }
 
-/*Permet de créer un rond*/
+    /*Tailles, margin et padding*/
 
-.radius-round {
-    border-radius:35px;
-}
-
-/*Tailles, margin et padding*/
-
-.margin-r-15 {
-    margin-right:15px;
-}
-
-.no-margin, h4 {
+.no-margin, h1,h2,h3,h4 {
     margin: 0;
 }
 
 h2 {
-    margin: 0 0 25px;
+    margin-bottom:20px;
 }
 
 h3 {
-    margin-bottom: 0;
+    margin-top:15px;
 }
 
 p {
@@ -133,42 +120,7 @@ header {
 
 /*section 1 - filtres et infos*/
 
-
-/*info*/
-
-.info {
-    margin: 35px 0;
-}
-
-.round-icon-info {
-    height: 25px;
-    width: 25px;
-    border: solid thin #d9d9d9;
-    margin: auto 0;
-}
-
-
-/*Filtres*/
-
-.round-icon {
-    height: 40px;
-    width: 40px;
-    background-color: #deebff;
-}
-
-.filter {
-    border-left: 1px;
-    background-color: white;
-    border-radius: 35px;
-    height: 35px;
-    margin-left: 25px;
-    padding-right: 15px;
-    display: flex;
-    white-space: nowrap;
-    align-items: center;
-}
-
-/*barre de recherche*/
+    /*barre de recherche*/
 
 #search {
     background-color: #F2F2F2;
@@ -183,7 +135,6 @@ header {
 .search-bar {
     border: none;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    font-weight: bold;
 }
 
 button {
@@ -206,11 +157,47 @@ input::placeholder {
     padding-left: 20px;
 }
 
+    /*Filtres*/
+
+.round-icon {
+    height: 40px;
+    width: 40px;
+    background-color: #deebff;
+    border-radius: 35px;
+    margin-right: 15px;
+}
+
+.filter {
+    border-radius: 35px;
+    height: 35px;
+    margin-left: 25px;
+    padding-right: 15px;
+    white-space: nowrap;
+    align-items: center;
+    border: solid medium #d9d9d9;
+    border-left: 1px;
+}
+
+    /*info*/
+
+.info {
+    margin: 35px 0;
+}
+
+.round-icon-info {
+    height: 25px;
+    width: 25px;
+    border: solid thin #d9d9d9;
+    margin: auto 0;
+    border-radius: 35px;
+    margin-right: 15px;
+}
+
 
 /* Section 2 - Herbegements et populaires*/
 
 
-/* Hébergements */
+    /* Hébergements */
 
 .hebergement {
     margin-right: 40px;
@@ -218,7 +205,6 @@ input::placeholder {
 
 .container {
     padding: 40px;
-    border-radius: 15px;
 }
 
 .thumbnail-verti {
@@ -249,7 +235,6 @@ input::placeholder {
 
 .common-thumbnail {
     background-color: white;
-    border-radius: 15px;
     margin-bottom: 30px;
     box-shadow: 5px 5px 15px -5px #aaa;
 }
@@ -261,13 +246,12 @@ input::placeholder {
 }
 
 
-/*Populaire*/
+    /*Populaire*/
 
 .description-pop {
     width: 160px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding-bottom: 10px;
 }
 
@@ -310,11 +294,13 @@ input::placeholder {
     padding: 20px;
 }
 
+    /* je demande à H3 de ne pas se comporter comme avant,
+    pour laisser le padding de la div agir librement */
 .div-activity h3 {
     margin:0;
 }
 
-/*Grille*/
+    /*Grille*/
 
 .grid {
     display: grid;
@@ -359,11 +345,6 @@ input::placeholder {
       background-color: #F2F2F2;
       line-height: 2em;
       padding:50px 0;
-  }
-
-  footer > div {
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   footer > div > div {

@@ -207,6 +207,10 @@ input::placeholder {
     padding-left: 15px;
 }
 
+.see-more {
+    font-size:1rem;
+}
+
     /*propriétés communes entre hébergement et cat populaire*/
 
 .common-thumbnail {
@@ -226,6 +230,10 @@ input::placeholder {
 
 .description-pop {
     width:160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 .popular {
@@ -244,8 +252,4 @@ input::placeholder {
 
 .img-size-horiz {
     border-radius: 15px 0 0 15px;
-}
-
-.test {
-    justify-content: flex-end;
 }

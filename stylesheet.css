@@ -91,7 +91,7 @@ i {
 
     /*Tailles, margin et padding*/
 
-.no-margin, h1,h2,h3,h4 {
+.no-margin, h2,h3,h4 {
     margin: 0;
 }
 
@@ -360,6 +360,8 @@ input::placeholder {
     border-color: white;
 }
 
+/*Nécessité de rajouter une balise <p> afin de pouvoir
+changer la couleur du texte au survol*/
 .filter:hover p {
     color: white;
     transition-duration: 0.5s;

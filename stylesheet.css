@@ -67,6 +67,10 @@ i {
     flex-wrap: wrap;
 }
 
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
 .space-between {
     justify-content: space-between;
 }
@@ -121,11 +125,10 @@ nav a {
     padding: 60px 25px 0 25px;
 }
 
-.active{
+.active {
     border-top:solid medium #0065FC;
     
-   }
-
+}
 
 /*section 1 - filtres et infos*/
 
@@ -161,7 +164,7 @@ input {
     margin: auto 0;
 }
 
-input::placeholder {
+input ::placeholder {
     color: black;
     padding-left: 20px;
 }
@@ -209,7 +212,7 @@ input::placeholder {
     /* Hébergements */
 
 .hebergement {
-    margin-right: 40px;
+    max-width: 60%;
 }
 
 .container {
@@ -262,10 +265,6 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     padding-bottom: 10px;
-}
-
-.popular {
-    width: 420px;
 }
 
 .thumbnail-horiz {

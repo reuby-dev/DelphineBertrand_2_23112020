@@ -351,3 +351,16 @@ input::placeholder {
     width:33%;
     min-width:300px;
   }
+
+  /*Hover effect*/
+
+.filter:hover {
+    background-color: #0065FC;
+    transition-duration: 1s;
+    border-color: white;
+}
+
+.filter:hover p {
+    color: white;
+    transition-duration: 0.5s;
+}

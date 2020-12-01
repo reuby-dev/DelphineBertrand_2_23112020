@@ -113,9 +113,14 @@ header {
     padding: 50px 0;
 }
 
-.menu>li {
-    padding-left: 70px;
+nav a {
+    padding: 60px 25px 0 25px;
 }
+
+.active{
+    border-top:solid medium #0065FC;
+    
+   }
 
 
 /*section 1 - filtres et infos*/

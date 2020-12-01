@@ -21,11 +21,16 @@
         <header class="flex space-between">
             <img src="Assets/logo/Reservia.svg" alt="logo Reservia">
             <nav>
-                <ul class="menu">
+                <ul>
                     <li>
-                        <a href="#hébergements">Hébergements</a></li>
-                    <li><a href=" #activites">Activités</a></li>
-                    <li class="bold color-blue">S'inscrire</li>
+                        <a href="#hébergements" class="active color-blue">Hébergements</a>
+                    </li>
+                    <li>
+                        <a href=" #activites">Activités</a>
+                    </li>
+                    <li>
+                        <a href="#" class="bold color-blue">S'inscrire</a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -37,15 +42,13 @@
 
             <div id="search">
                 <i class="fas fa-map-marker-alt color-black"></i>
-                <input type="text" id="localisation" name="localisation" placeholder="Marseille, France"
-                    class="search-bar bold">
+                <input type="text" id="localisation" name="localisation" placeholder="Marseille, France" class="search-bar bold">
                 <button class="search-bar bold">Rechercher</button>
             </div>
 
             <!--TODO changer couleur rond fon bleu et non gris-->
             <ul>
                 <li class="bold">Filtres</li>
-
                 <a href="#">
                     <li class="filter flex bold">
                         <div class="round-icon flex"><i class="fas fa-money-bill-wave"></i></div>
@@ -71,8 +74,6 @@
                     </li>
                 </a>
             </ul>
-
-            <!--TODO changer padding rond plus petit que pour les autres rond-->
             <div class="flex info">
                 <div class="round-icon-info flex"><i class="fas fa-info"></i></div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>

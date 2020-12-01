@@ -18,6 +18,10 @@ body {
     margin: auto;
 }
 
+input, button {
+    outline: 0;
+  }
+
 li {
     list-style-type: none;
     margin: auto 0;
@@ -91,7 +95,7 @@ i {
 
     /*Tailles, margin et padding*/
 
-.no-margin, h2,h3,h4 {
+.no-margin,h1,h2,h3,h4 {
     margin: 0;
 }
 

@@ -9,7 +9,7 @@ body {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     margin: 0px;
     font-size: 0.875rem; /* défini la taille générale de la police */
-    width:100%;
+    width: 100%;
 }
 
     /*Défini la taille maximum du contenu du site*/
@@ -131,7 +131,6 @@ nav a {
 
 .active {
     border-top:solid medium #0065FC;
-    
 }
 
 /*section 1 - filtres et infos*/
@@ -164,11 +163,10 @@ button {
 input {
     width: 250px;
     height: 35px;
-    display: flex;
     margin: auto 0;
 }
 
-input ::placeholder {
+input::placeholder {
     color: black;
     padding-left: 20px;
 }
@@ -192,6 +190,7 @@ input ::placeholder {
     align-items: center;
     border: solid medium #d9d9d9;
     border-left: 1px;
+    margin-bottom:5px;
 }
 
     /*info*/
@@ -261,13 +260,10 @@ input ::placeholder {
     object-fit: cover;
 }
 
-
     /*Populaire*/
 
 .description-pop {
     width: 160px;
-    display: flex;
-    flex-direction: column;
     padding-bottom: 10px;
 }
 
@@ -313,12 +309,9 @@ input ::placeholder {
     padding: 20px;
 }
 
-    /* je demande à H3 de ne pas se comporter comme avant,
-    pour laisser le padding de la div agir librement */
 .div-activity h3 {
     margin:0;
 }
-
 
   /*Footer*/
 

@@ -9,6 +9,7 @@ Le but était d'intégrer une maquette fournie par un designer à un site web, e
 - Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
 
 # Contraintes techniques
+- Utilisation de framework proscrite.
 - Deux maquettes fournies pour le desktop et le mobile.
 - Le site devra également être adapté librement aux tablettes tant qu’aucun élément n’est coupé et que le texte a une taille suffisante.
 - Les icônes proviennent de la bibliothèque Font Awesome. 

@@ -289,13 +289,11 @@ input ::placeholder {
 }
 
 .img-activity-big {
-    width:100%;
     height: 85%;
 }
 
 .img-activity-fit {
-    width:100%;
-    height: 67%;
+    height: 70%;
 }
 
 .div-activity {
@@ -312,37 +310,43 @@ input ::placeholder {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: 200px;
     grid-gap: 40px;
   }
 
   .box1 { 
+    min-width: 300px;
     grid-row-start: 1; 
     grid-row-end: 3; 
   } 
 
   .box2 { 
+    min-width: 300px;
     grid-row-start: 1; 
     grid-row-end: 2; 
   }
 
   .box3 {
+    min-width: 300px;
     grid-row-start: 2; 
     grid-row-end: 3;  
   }
 
   .box4 { 
+    min-width: 300px;
     grid-row-start: 1; 
     grid-row-end: 3; 
   }
 
   .box5 { 
+    min-width: 300px;
     grid-row-start: 1; 
     grid-row-end: 2; 
   }
 
   .box6 { 
+    min-width: 300px;
     grid-row-start: 2; 
     grid-row-end: 3; 
   }

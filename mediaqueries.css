@@ -4,6 +4,10 @@
     border-radius: 0;
 }
 
+.container, .smart-width-100 {
+    width: 100%;
+}
+
 .hebergement {
     background-color: white;
     max-width: 100%;  
@@ -26,17 +30,14 @@
     height:70%;
 }
 
-.container, .smart-width-100 {
-    width: 100%;
-}
-
 .mar-bot-50 {
     margin-bottom: 0;
 }
 
-
 }
 
-@media (min-width: 640px) and (max-width: 1200px){
-    /*style petites-moyennes tablettes */
+@media (min-width: 640px) and (max-width: 1287px){
+    .hebergement {
+        max-width: 100%;  
+    }
 }

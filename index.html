@@ -25,8 +25,8 @@
 
 <body>
     <div class="max-layout">
-        <!--Logo et barre de Nav-->
-        <header class="flex space-between">
+        <!--Logo et barre de Nav Tablette et Desktop-->
+        <header class="flex wrap space-between">
             <img src="Assets/logo/Reservia.svg" alt="logo Reservia">
             <nav>
                 <ul>
@@ -42,6 +42,26 @@
                 </ul>
             </nav>
         </header>
+
+        <!--Logo et barre de Nav Smartphone-->
+        <header>
+            <div class="flex space-between">
+                <img src="Assets/logo/Reservia.svg" alt="logo Reservia">
+                <a href="#" class="bold color-blue test">S'inscrire</a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#hebergement" class="">Hébergements</a>
+                    </li>
+                    <li>
+                        <a href="#activites">Activités</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!---->
+
 
         <!-- 1ere section contenant descriptif site + search bar + filtres-->
         <section>
@@ -284,7 +304,7 @@
 
         <!-- 3eme section comprenant activités -->
 
-        <section id ="activites">
+        <section id="activites">
             <h2>Activités à Marseille</h2>
 
             <div class="flex wrap space-between">

@@ -1,0 +1,42 @@
+@media (max-width: 640px) {
+
+.smart-no-radius {
+    border-radius: 0;
+}
+
+.hebergement {
+    background-color: white;
+    max-width: 100%;  
+}
+
+.thumbnail-horiz,.thumbnail-verti, .big-thumbnail, .fit-thumbnail {
+    margin:auto;
+    margin-bottom:15px;
+}
+
+.thumbnail-verti, .img-verti, .big-thumbnail, .fit-thumbnail {
+    width: 345px;
+}
+
+.big-thumbnail {
+   height:200px;
+}
+
+.img-activity-big {
+    height:70%;
+}
+
+.container, .smart-width-100 {
+    width: 100%;
+}
+
+.mar-bot-50 {
+    margin-bottom: 0;
+}
+
+
+}
+
+@media (min-width: 640px) and (max-width: 1200px){
+    /*style petites-moyennes tablettes */
+}

@@ -10,6 +10,7 @@ body {
     margin: 0px;
     font-size: 0.875rem; /* défini la taille générale de la police */
     width: 100%;
+    min-width: 435px;
 }
 
     /*Défini la taille maximum du contenu du site*/
@@ -119,8 +120,12 @@ h2 {
     margin-bottom:20px;
 }
 
-h3 {
+.mar-top-15 {
     margin-top:15px;
+}
+
+.mar-bot-50 {
+    margin-bottom:50px;
 }
 
 p {
@@ -224,10 +229,12 @@ input::placeholder {
 
 .hebergement {
     max-width: 60%;
+    min-width:355px;
 }
 
 .container {
     padding: 40px;
+    margin-bottom: 15px;
 }
 
 .thumbnail-verti {
@@ -281,10 +288,6 @@ input::placeholder {
 }
 
 /*Section 3 - Activité*/
-
-#activites {
-    margin: 65px 0;
-}
 
 .big-thumbnail {
     width:300px;

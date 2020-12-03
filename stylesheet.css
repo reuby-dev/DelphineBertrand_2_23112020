@@ -229,7 +229,6 @@ input::placeholder {
 
 .hebergement {
     max-width: 60%;
-    min-width:355px;
 }
 
 .container {
@@ -321,6 +320,7 @@ input::placeholder {
       background-color: #F2F2F2;
       line-height: 2em;
       padding:50px 0;
+      margin-top:50px;
   }
 
   footer > div > div {

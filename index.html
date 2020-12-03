@@ -4,12 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve." />
-    <title>Reservia</title>
+    <title>Reservia - Hébergement pour vos vacances et séjours</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <!-- Open Graph TODO-->
+    <meta property="og:title" content="Reservia" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://exemple.com/exemple-titre-article" />
+    <meta property="og:image" content="Assets/logo/Reservia.svg" />
+    <meta property="og:description" content="Cet article présente le protocole Open Graph" />
+    <!-- intégration de Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
     <!-- intégration de googlefont-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <!-- intégration de Favicon-->
     <link rel="icon" type="image/png" href="Assets/logo/Favicon.png">
@@ -23,10 +30,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#hébergements" class="active color-blue">Hébergements</a>
+                        <a href="#hebergement" class="active color-blue">Hébergements</a>
                     </li>
                     <li>
-                        <a href=" #activites">Activités</a>
+                        <a href="#activites">Activités</a>
                     </li>
                     <li>
                         <a href="#" class="bold color-blue">S'inscrire</a>
@@ -52,25 +59,25 @@
                 <a href="#">
                     <li class="filter flex bold">
                         <div class="round-icon flex"><i class="fas fa-money-bill-wave"></i></div>
-                        <p>&Eacute;conomique</p>
+                        &Eacute;conomique
                     </li>
                 </a>
                 <a href="#">
                     <li class="filter flex bold">
                         <div class="round-icon flex"><i class="fas fa-child"></i></div>
-                        <p>Familial</p>
+                        Familial
                     </li>
                 </a>
                 <a href="#">
                     <li class="filter flex bold">
                         <div class="round-icon flex"><i class="fas fa-heart"></i></div>
-                        <p>Romantique</p>
+                        Romantique
                     </li>
                 </a>
                 <a href="#">
                     <li class="filter flex bold">
                         <div class="round-icon flex"><i class="fas fa-dog"></i></div>
-                        <p>Animaux autorisés</p>
+                        Animaux autorisés
                     </li>
                 </a>
             </ul>
@@ -91,7 +98,7 @@
                         <div class="thumbnail-verti common-thumbnail border-radius">
                             <div class="img-verti">
                                 <img src="Assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                                    alt="hébergement" class="img-size-verti common-img-size" />
+                                    alt="hébergement" class="radius-top common-img-size" />
                             </div>
                             <div class="description-heberg">
                                 <h3>Auberge la Cannebière</h3>
@@ -109,7 +116,7 @@
                         <div class="thumbnail-verti common-thumbnail border-radius">
                             <div class="img-verti">
                                 <img src="Assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-                                    alt="hébergement" class="img-size-verti common-img-size" />
+                                    alt="hébergement" class="radius-top common-img-size" />
                             </div>
                             <div class="description-heberg">
                                 <h3>Hôtel du port</h3>
@@ -127,7 +134,7 @@
                         <div class="thumbnail-verti common-thumbnail border-radius">
                             <div class="img-verti">
                                 <img src="Assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                                    alt="hébergement" class="img-size-verti common-img-size" />
+                                    alt="hébergement" class="radius-top common-img-size" />
                             </div>
                             <div class="description-heberg">
                                 <h3>Hôtel Les mouettes</h3>
@@ -145,7 +152,7 @@
                         <div class="thumbnail-verti common-thumbnail border-radius">
                             <div class="img-verti">
                                 <img src="Assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="
-                    hébergement" class="img-size-verti common-img-size" />
+                    hébergement" class="radius-top common-img-size" />
                             </div>
                             <div class="description-heberg">
                                 <h3>Hôtel de la mer</h3>
@@ -163,7 +170,7 @@
                         <div class="thumbnail-verti common-thumbnail border-radius">
                             <div class="img-verti">
                                 <img src="Assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-                                    alt="hébergement" class="img-size-verti common-img-size" />
+                                    alt="hébergement" class="radius-top common-img-size" />
                             </div>
                             <div class="description-heberg">
                                 <h3>Auberge Le Panier</h3>
@@ -181,7 +188,7 @@
                         <div class="thumbnail-verti common-thumbnail border-radius">
                             <div class="img-verti">
                                 <img src="Assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                                    alt="hébergement" class="img-size-verti common-img-size" />
+                                    alt="hébergement" class="radius-top common-img-size" />
                             </div>
                             <div class="description-heberg">
                                 <h3>Hôtel chez Amina</h3>
@@ -210,7 +217,7 @@
                     <div class="thumbnail-horiz common-thumbnail border-radius flex">
                         <div class="img-horiz">
                             <img src="Assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                alt="hébergement" class="img-size-horiz common-img-size" />
+                                alt="hébergement" class="radius-left common-img-size" />
                         </div>
                         <div class="description-heberg description-pop flex column space-between">
                             <div>
@@ -232,7 +239,7 @@
                     <div class="thumbnail-horiz common-thumbnail border-radius flex">
                         <div class="img-horiz">
                             <img src="Assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                                alt="hébergement" class="img-size-horiz common-img-size" />
+                                alt="hébergement" class="radius-left common-img-size" />
                         </div>
                         <div class="description-heberg description-pop flex column space-between">
                             <div>
@@ -254,7 +261,7 @@
                     <div class="thumbnail-horiz common-thumbnail border-radius flex">
                         <div class="img-horiz">
                             <img src="Assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                                alt="hébergement" class="img-size-horiz common-img-size" />
+                                alt="hébergement" class="radius-left common-img-size" />
                         </div>
                         <div class="description-heberg description-pop flex column space-between">
                             <div>
@@ -280,11 +287,11 @@
             <h2>Activités à Marseille</h2>
 
             <div class="flex wrap space-between">
-                <div class="border-radius box-shadow big-thumbnail">
+                <div class="border-radius box-shadow overflow big-thumbnail">
                     <a href="#">
                         <div class="img-activity-big">
                             <img src="assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                                class="common-img-size radius-top" alt="Vieux port" />
+                                class="common-img-size" alt="Vieux port" />
                         </div>
                         <div class="div-activity">
                             <h3>Vieux port</h3>
@@ -293,11 +300,11 @@
                 </div>
 
                 <div class="flex column space-between">
-                    <div class="border-radius box-shadow fit-thumbnail">
+                    <div class="border-radius box-shadow overflow fit-thumbnail">
                         <a href="#">
                             <div class="img-activity-fit">
                                 <img src="assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                                    class="common-img-size radius-top" alt="Fort de Pomègues" />
+                                    class="common-img-size" alt="Fort de Pomègues" />
                             </div>
                             <div class="div-activity">
                                 <h3>Fort de Pomègues</h3>
@@ -305,11 +312,11 @@
                         </a>
                     </div>
 
-                    <div class="border-radius box-shadow fit-thumbnail">
+                    <div class="border-radius box-shadow overflow fit-thumbnail">
                         <a href="#">
                             <div class="img-activity-fit">
                                 <img src="assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
-                                    class="common-img-size radius-top" alt="Iles du Frioul" />
+                                    class="common-img-size" alt="Iles du Frioul" />
                             </div>
                             <div class="div-activity">
                                 <h3>&Icirc;les du Frioul</h3>
@@ -319,11 +326,11 @@
                 </div>
 
 
-                <div class="border-radius box-shadow big-thumbnail">
+                <div class="border-radius box-shadow overflow big-thumbnail">
                     <a href="#">
                         <div class="img-activity-big">
                             <img src="assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                                class="common-img-size radius-top" alt="Parc national des calanques" />
+                                class="common-img-size" alt="Parc national des calanques" />
                         </div>
                         <div class="div-activity">
                             <h3>Parc National des Calanques</h3>
@@ -332,11 +339,11 @@
                 </div>
 
                 <div class="flex column space-between">
-                    <div class="border-radius box-shadow fit-thumbnail">
+                    <div class="border-radius box-shadow overflow fit-thumbnail">
                         <a href="#">
                             <div class="img-activity-fit">
                                 <img src="assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                                    class="common-img-size radius-top" alt="Notre dame de la garde" />
+                                    class="common-img-size" alt="Notre dame de la garde" />
                             </div>
                             <div class="div-activity">
                                 <h3>Notre-Dame-de-la-Garde</h3>
@@ -344,11 +351,11 @@
                         </a>
                     </div>
 
-                    <div class="border-radius box-shadow fit-thumbnail">
+                    <div class="border-radius box-shadow overflow fit-thumbnail">
                         <a href="#">
                             <div class="img-activity-fit">
                                 <img src="assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                                    class="common-img-size radius-top" alt="Parc longchamp" />
+                                    class="common-img-size" alt="Parc longchamp" />
                             </div>
                             <div class="div-activity">
                                 <h3>Parc Longchamp</h3>

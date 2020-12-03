@@ -47,6 +47,10 @@ i {
     font-weight: bold;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
     /*Radius*/
 
 .border-radius {
@@ -55,6 +59,10 @@ i {
 
 .radius-top {
     border-radius: 15px 15px 0 0;
+}
+
+.radius-left {
+    border-radius: 15px 0 0 15px;
 }
 
     /*Flexbox*/
@@ -232,10 +240,6 @@ input::placeholder {
     height: 110px;
 }
 
-.img-size-verti {
-    border-radius: 15px 15px 0 0;
-}
-
 .description-heberg {
     padding-left: 15px;
 }
@@ -243,7 +247,6 @@ input::placeholder {
 .see-more {
     font-size: 1rem;
 }
-
 
 /*propriétés communes entre hébergement et cat populaire*/
 
@@ -275,10 +278,6 @@ input::placeholder {
 .img-horiz {
     width: 125px;
     height: 130px;
-}
-
-.img-size-horiz {
-    border-radius: 15px 0 0 15px;
 }
 
 /*Section 3 - Activité*/
@@ -330,13 +329,7 @@ input::placeholder {
 
 .filter:hover {
     background-color: #0065FC;
-    transition-duration: 1s;
-    border-color: white;
-}
-
-/*Nécessité de rajouter une balise <p> afin de pouvoir
-changer la couleur du texte au survol*/
-.filter:hover p {
-    color: white;
     transition-duration: 0.5s;
+    border-color: white;
+    color:white;
 }

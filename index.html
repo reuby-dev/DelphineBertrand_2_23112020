@@ -26,10 +26,10 @@
 <body>
     <div class="max-layout">
         <!--Logo et barre de Nav Tablette et Desktop-->
-        <header id="header-desktop" class="flex wrap space-between">
+        <header class="flex wrap space-between hide-mobile">
             <img src="Assets/logo/Reservia.svg" alt="logo Reservia">
             <nav>
-                <ul>
+                <ul class="flex wrap">
                     <li>
                         <a href="#hebergement" class="color-blue a-nav-desktop" id="active-desktop">Hébergements</a>
                     </li>
@@ -44,15 +44,15 @@
         </header>
 
         <!--Logo et barre de Nav Smartphone-->
-        <header id="header-mobile">
+        <header id="hide-desktop">
             <div class="flex space-between mar-bot-50 pad-mobile">
                 <img src="Assets/logo/Reservia.svg" alt="logo Reservia" class="pad-right-15">
                 <a href="#" class="bold color-blue vert-center">S'inscrire</a>
             </div>
             <nav>
-                <ul class="flex no-wrap width-100-percent">
+                <ul class="flex wrap" class="flex no-wrap width-100-percent">
                     <li id="active-mobile" class="width-50-percent pad-bot-15 text-center">
-                        <a href="#hebergement">Hébergements</a>
+                        <a href="#hebergement" class="color-blue">Hébergements</a>
                     </li>
                     <li id="no-active-mobile" class="width-50-percent pad-bot-15 text-center">
                         <a href="#activites">Activités</a>
@@ -64,18 +64,30 @@
 
 
         <!-- 1ere section contenant descriptif site + search bar + filtres-->
+        <!--descriptif-->
         <section class="pad-mobile">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
 
-            <div id="search" class="no-wrap">
+
+        <!--Search bar Desktop-->
+            <div id="search" class="flex no-wrap">
                 <i class="fas fa-map-marker-alt color-black"></i>
                 <input type="text" id="localisation" name="localisation" placeholder="Marseille, France"
-                    class="search-bar bold flex">
-                <button class="search-bar bold">Rechercher</button>
+                    class="no-border bold flex">
+                <button class="no-border bold">Rechercher</button>
             </div>
 
-            <ul>
+        <!--Search bar mobile-->
+        <div id="search" class="flex no-wrap">
+            <i class="fas fa-map-marker-alt color-black"></i>
+            <input type="text" id="localisation" name="localisation" placeholder="Marseille, France"
+                class="no-border bold flex">
+            <button class="no-border bold">Rechercher</button>
+        </div>
+
+        <!--Filtres-->
+            <ul class="flex wrap">
                 <li class="bold"><span class="mar-top-15">Filtres</span></li>
                 <a href="#">
                     <li class="filter flex bold">

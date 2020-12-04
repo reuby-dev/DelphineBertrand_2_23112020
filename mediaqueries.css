@@ -19,7 +19,7 @@
 }
 
 /*Header*/
-#header-desktop {
+.hide-mobile {
     display:none;
 }
 
@@ -66,14 +66,14 @@
         max-width: 100%;  
     }
 
-    #header-mobile {
+    #hide-desktop {
         display:none;
     }
 }
 
 @media (min-width: 1288px){
 
-    #header-mobile {
+    #hide-desktop {
         display:none;
     }
 }

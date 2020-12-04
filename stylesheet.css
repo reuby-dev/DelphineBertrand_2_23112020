@@ -1,12 +1,15 @@
 /* Règles générales */
 
+* {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
 html {
     font-size: 100%;
     /* permet au texte de s'adapter selon la taille de l'écran */
 }
 
 body {
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     margin: 0px;
     font-size: 0.875rem; /* défini la taille générale de la police */
     width: 100%;
@@ -28,8 +31,6 @@ li {
 }
 
 ul {
-    display: flex;
-    flex-wrap: wrap;
     padding: 0;
 }
 
@@ -41,6 +42,10 @@ a {
 i {
     color: #0065FC;
     margin: auto;
+}
+
+.no-border {
+    border:none;
 }
 
 .bold {
@@ -116,7 +121,7 @@ i {
     /*Tailles, margin et padding*/
 
 .text-center {
-    text-align:center
+    text-align:center;
 }
 
 .vert-center {
@@ -195,20 +200,14 @@ header {
 
 /*section 1 - filtres et infos*/
 
-    /*barre de recherche*/
+    /*barre de recherche desktop*/
 
 #search {
     background-color: #F2F2F2;
     border-radius: 15px;
     width: 400px;
-    display: flex;
     justify-content: flex-end;
-    margin: 20px 0 30px 0;
-}
-
-.search-bar {
-    border: none;
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: 20px 0 30px;
 }
 
 button {
@@ -229,6 +228,8 @@ input::placeholder {
     color: black;
     padding-left: 20px;
 }
+
+/*barre de recherche mobile*/
 
     /*Filtres*/
 

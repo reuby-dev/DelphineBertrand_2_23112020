@@ -31,13 +31,13 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#hebergement" class="active color-blue">Hébergements</a>
+                        <a href="#hebergement" class="color-blue a-nav-desktop" id="active-desktop">Hébergements</a>
                     </li>
                     <li>
-                        <a href="#activites">Activités</a>
+                        <a href="#activites" class="a-nav-desktop">Activités</a>
                     </li>
                     <li>
-                        <a href="#" class="bold color-blue">S'inscrire</a>
+                        <a href="#" class="bold color-blue a-nav-desktop">S'inscrire</a>
                     </li>
                 </ul>
             </nav>
@@ -45,16 +45,16 @@
 
         <!--Logo et barre de Nav Smartphone-->
         <header>
-            <div class="flex space-between">
-                <img src="Assets/logo/Reservia.svg" alt="logo Reservia">
-                <a href="#" class="bold color-blue test">S'inscrire</a>
+            <div class="flex space-between mar-bot-50">
+                <img src="Assets/logo/Reservia.svg" alt="logo Reservia" class="pad-right-15">
+                <a href="#" class="bold color-blue vert-center">S'inscrire</a>
             </div>
             <nav>
-                <ul>
-                    <li>
-                        <a href="#hebergement" class="">Hébergements</a>
+                <ul class="flex no-wrap width-100-percent">
+                    <li id="active-mobile" class="width-50-percent pad-bot-30 text-center">
+                        <a href="#hebergement">Hébergements</a>
                     </li>
-                    <li>
+                    <li id="no-active-mobile" class="width-50-percent pad-bot-30 text-center">
                         <a href="#activites">Activités</a>
                     </li>
                 </ul>
@@ -68,7 +68,7 @@
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
 
-            <div id="search">
+            <div id="search" class="no-wrap">
                 <i class="fas fa-map-marker-alt color-black"></i>
                 <input type="text" id="localisation" name="localisation" placeholder="Marseille, France"
                     class="search-bar bold flex">

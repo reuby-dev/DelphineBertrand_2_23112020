@@ -10,7 +10,6 @@ body {
     margin: 0px;
     font-size: 0.875rem; /* défini la taille générale de la police */
     width: 100%;
-    min-width: 435px;
 }
 
     /*Défini la taille maximum du contenu du site*/
@@ -80,6 +79,10 @@ i {
     flex-wrap: wrap-reverse;
 }
 
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
 .column {
     flex-direction: column;
 }
@@ -112,16 +115,16 @@ i {
 
     /*Tailles, margin et padding*/
 
-    .test {
-        height:auto;
-    }
+.text-center {
+    text-align:center
+}
+
+.vert-center {
+    margin:auto 0;
+}
 
 .no-margin,h1,h2,h3,h4 {
     margin: 0;
-}
-
-h2 {
-    margin-bottom:20px;
 }
 
 .mar-top-15 {
@@ -130,6 +133,26 @@ h2 {
 
 .mar-bot-50 {
     margin-bottom:50px;
+}
+
+.pad-bot-30 {
+    padding-bottom: 30px;
+}
+
+.pad-right-15 {
+    padding-right:15px;
+}
+
+.width-100-percent {
+    width:100%;
+}
+
+.width-50-percent {
+    width:50%;
+}
+
+h2 {
+    margin-bottom:20px;
 }
 
 p {
@@ -142,13 +165,33 @@ header {
     padding: 50px 0;
 }
 
-nav a {
+.a-nav-desktop {
     padding: 60px 25px 0 25px;
 }
 
-.active {
+.active-desktop {
     border-top:solid medium #0065FC;
 }
+
+/*Mobile Header*/
+
+#nav-mobile {
+    border-bottom: solid medium #F2F2F2;
+}
+
+.text-align {
+    text-align: center;
+}
+
+#active-mobile {
+    border-bottom: solid medium #0065FC;   
+}
+
+#no-active-mobile {
+    border-bottom: solid medium #F2F2F2;   
+}
+
+
 
 /*section 1 - filtres et infos*/
 
@@ -159,7 +202,6 @@ nav a {
     border-radius: 15px;
     width: 400px;
     display: flex;
-    flex-wrap: nowrap;
     justify-content: flex-end;
     margin: 20px 0 30px 0;
 }

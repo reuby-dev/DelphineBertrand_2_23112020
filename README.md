@@ -21,6 +21,3 @@ Le but était d'intégrer une maquette fournie par un designer à un site web, e
 
 # Police
 - Raleway
-
-# Auteur
-Delphine Bertrand

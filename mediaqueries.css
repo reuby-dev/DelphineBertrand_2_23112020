@@ -1,5 +1,7 @@
 @media (max-width: 640px) {
 
+/*Règles générales*/
+
 .smart-no-radius {
     border-radius: 0;
 }
@@ -8,10 +10,27 @@
     width: 100%;
 }
 
+.pad-mobile {
+    padding:0 20px;
+}
+
+.mar-bot-50 {
+    margin-bottom: 0;
+}
+
+/*Header*/
+#header-desktop {
+    display:none;
+}
+
+/*Cat Hebergement*/
+
 .hebergement {
     background-color: white;
     max-width: 100%;  
 }
+
+/*Vignettes*/
 
 .thumbnail-horiz,.thumbnail-verti, .big-thumbnail, .fit-thumbnail {
     margin:auto;
@@ -24,6 +43,7 @@
 
 .big-thumbnail {
    height:200px;
+   min-width: 345px;
 }
 
 .img-activity-big {
@@ -33,7 +53,27 @@
 }
 
 @media (min-width: 640px) and (max-width: 1287px){
+
+    .pad-mobile {
+        padding:0 20px;
+    }
+
+    .pad-tablet {
+        padding:0 20px;
+    }
+
     .hebergement {
         max-width: 100%;  
+    }
+
+    #header-mobile {
+        display:none;
+    }
+}
+
+@media (min-width: 1288px){
+
+    #header-mobile {
+        display:none;
     }
 }

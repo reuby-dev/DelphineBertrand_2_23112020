@@ -67,21 +67,40 @@ button {
 
 @media (min-width: 640px) and (max-width: 1287px){
 
-    .pad-mobile {
-        padding:0 20px;
-    }
 
-    .pad-tablet {
-        padding:0 20px;
-    }
+#popular {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-    .hebergement {
-        max-width: 100%;  
-    }
+.smart-no-radius {
+    border-radius: 0;
+}
 
-    .hide-desktop {
-        display:none;
-    }
+.thumbnail-order {
+    justify-content: space-around;
+}
+
+.container {
+    width: 100%;
+}
+
+.pad-mobile {
+    padding:0 20px;
+}
+
+.pad-tablet {
+    padding:0 20px;
+}
+
+.hebergement {
+    max-width: 100%;  
+}
+
+.hide-desktop {
+    display:none;
+}
+
 }
 
 @media (min-width: 1288px){

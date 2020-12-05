@@ -102,6 +102,10 @@ i {
     color:black;
 }
 
+.color-white {
+    color:white;
+}
+
 .color-blue {
     color: #0065FC;
 }
@@ -215,7 +219,6 @@ button {
     background-color: #0065FC;
     border-radius: 0 15px 15px 0;
     width: 100px;
-    height: 40px;
 }
 
 input {
@@ -228,8 +231,6 @@ input::placeholder {
     color: black;
     padding-left: 20px;
 }
-
-/*barre de recherche mobile*/
 
     /*Filtres*/
 

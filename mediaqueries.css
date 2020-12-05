@@ -1,3 +1,4 @@
+
 @media (max-width: 640px) {
 
 /*Règles générales*/
@@ -18,9 +19,22 @@
     margin-bottom: 0;
 }
 
-/*Header*/
 .hide-mobile {
     display:none;
+}
+
+/*Search bar*/
+
+#search {
+    width:100%
+}
+
+input {
+    width:80%
+}
+
+button {
+    width:10%
 }
 
 /*Cat Hebergement*/
@@ -32,18 +46,17 @@
 
 /*Vignettes*/
 
-.thumbnail-horiz,.thumbnail-verti, .big-thumbnail, .fit-thumbnail {
-    margin:auto;
-    margin-bottom:15px;
+.img-verti {
+    width: auto;
 }
 
-.thumbnail-verti, .img-verti, .big-thumbnail, .fit-thumbnail {
-    width: 345px;
+.thumbnail-verti, .thumbnail-horiz, .big-thumbnail, .fit-thumbnail {
+    width: auto;
+    margin-bottom:15px;
 }
 
 .big-thumbnail {
    height:200px;
-   min-width: 345px;
 }
 
 .img-activity-big {
@@ -66,14 +79,14 @@
         max-width: 100%;  
     }
 
-    #hide-desktop {
+    .hide-desktop {
         display:none;
     }
 }
 
 @media (min-width: 1288px){
 
-    #hide-desktop {
+    .hide-desktop {
         display:none;
     }
 }

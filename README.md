@@ -1,5 +1,5 @@
 # Reservia
-Projet réalisé dans le cadre de ma formation Développeur web Openclassroom.
+Premier projet réalisé dans le cadre de ma formation Développeur web Openclassroom.
 Le but était d'intégrer une maquette fournie par un designer à un site web, en utilisant les languages HTML et CSS from scratch. 
 
 # Spécificités

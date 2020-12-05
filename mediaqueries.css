@@ -51,7 +51,7 @@ button {
 }
 
 .thumbnail-verti, .thumbnail-horiz, .big-thumbnail, .fit-thumbnail {
-    width: auto;
+    width: 100%;
     margin-bottom:15px;
 }
 

@@ -8,12 +8,14 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="mediaqueries.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,">
-    <!-- Open Graph TODO-->
-    <meta property="og:title" content="Reservia" />
-    <meta property="og:type" content="article" />
+    <!-- Open Graph-->
+    <meta property="og:site_name" content="Reservia" />
+    <meta property="og:locale" content="fr_FR"/>
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="https://reuby-dev.github.io/Reservia/" />
+    <meta property="og:title" content="Hébergement pour vos vacances et séjours - Réservia"/>
     <meta property="og:image" content="assets/logo/Reservia.svg" />
-    <meta property="og:description" content="Cet article présente le protocole Open Graph" />
+    <meta property="og:description" content="Trouvez votre hébergement pour des vacances de rêve, en plein centre ville ou en pleine nature" />
     <!-- intégration de Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
     <!-- intégration de googlefont-->
@@ -75,36 +77,29 @@
                 <input type="text" id="localisation" name="localisation" placeholder="Marseille, France"
                     class="no-border bold flex vert-center">
                 <button class="no-border bold hide-mobile color-white">Rechercher</button>
-                <button class="no-border bold hide-desktop color-white"><i class="fas fa-search color-white"></i></button>
+                <button class="no-border bold hide-desktop color-white"><i
+                        class="fas fa-search color-white"></i></button>
             </div>
 
             <!--Filtres-->
             <ul class="flex wrap">
                 <li class="bold">Filtres</li>
-                <a href="#">
-                    <li class="filter flex bold border-radius-35">
-                        <div class="round-icon flex border-radius-35"><i class="fas fa-money-bill-wave"></i></div>
-                        &Eacute;conomique
-                    </li>
-                </a>
-                <a href="#">
-                    <li class="filter flex bold border-radius-35">
-                        <div class="round-icon flex border-radius-35"><i class="fas fa-child"></i></div>
-                        Familial
-                    </li>
-                </a>
-                <a href="#">
-                    <li class="filter flex bold border-radius-35">
-                        <div class="round-icon flex border-radius-35"><i class="fas fa-heart"></i></div>
-                        Romantique
-                    </li>
-                </a>
-                <a href="#">
-                    <li class="filter flex bold border-radius-35">
-                        <div class="round-icon flex border-radius-35"><i class="fas fa-dog"></i></div>
-                        Animaux autorisés
-                    </li>
-                </a>
+                <li class="filter flex bold border-radius-35">
+                    <div class="round-icon flex border-radius-35"><i class="fas fa-money-bill-wave"></i></div>
+                    &Eacute;conomique
+                </li>
+                <li class="filter flex bold border-radius-35">
+                    <div class="round-icon flex border-radius-35"><i class="fas fa-child"></i></div>
+                    Familial
+                </li>
+                <li class="filter flex bold border-radius-35">
+                    <div class="round-icon flex border-radius-35"><i class="fas fa-heart"></i></div>
+                    Romantique
+                </li>
+                <li class="filter flex bold border-radius-35">
+                    <div class="round-icon flex border-radius-35"><i class="fas fa-dog"></i></div>
+                    Animaux autorisés
+                </li>
             </ul>
             <div class="flex info">
                 <div class="round-icon-info flex vert-center border-radius-35"><i class="fas fa-info"></i></div>

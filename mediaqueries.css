@@ -26,15 +26,15 @@
 /*Search bar*/
 
 #search {
-    width:100%
+    width:100%;
 }
 
 input {
-    width:80%
+    width:80%;
 }
 
 button {
-    width:10%
+    width:10%;
 }
 
 /*Cat Hebergement*/
@@ -86,10 +86,6 @@ button {
 }
 
 .pad-mobile {
-    padding:0 20px;
-}
-
-.pad-tablet {
     padding:0 20px;
 }
 

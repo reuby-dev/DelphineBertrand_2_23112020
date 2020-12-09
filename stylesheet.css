@@ -52,6 +52,10 @@ i {
     overflow: hidden;
 }
 
+.block {
+    display:block;
+}
+
     /*Radius*/
 
 .border-radius-15 {
@@ -78,10 +82,6 @@ i {
 
 .wrap {
     flex-wrap: wrap;
-}
-
-.wrap-reverse {
-    flex-wrap: wrap-reverse;
 }
 
 .no-wrap {
@@ -272,7 +272,7 @@ input::placeholder {
     /* Hébergements */
 
 .hebergement {
-    width: 66%;
+    margin-right: 45px;
 }
 
 .container {
@@ -281,12 +281,12 @@ input::placeholder {
 }
 
 .thumbnail-verti {
-    width: 245px;
+    width: 30%;
+    min-width: 255px;
     padding: 5px 5px 10px 5px;
 }
 
 .img-verti {
-    width: 235px;
     height: 110px;
 }
 
@@ -314,13 +314,19 @@ input::placeholder {
 
     /*Populaire*/
 
+#popular {
+    width: 30%;
+    min-width: 425px;
+    max-height: 646px;
+}
+
 .description-pop {
-    width: 160px;
+    width: 59%;
     padding-bottom: 10px;
 }
 
 .thumbnail-horiz {
-    width: 345px;
+    width: 100%;
     padding: 5px;
 }
 

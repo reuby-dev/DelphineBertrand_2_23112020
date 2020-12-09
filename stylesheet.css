@@ -214,6 +214,7 @@ header {
 }
 
 button {
+    cursor:pointer;
     background-color: #0065FC;
     border-radius: 0 15px 15px 0;
     width: 100px;
@@ -247,6 +248,7 @@ input::placeholder {
     border: solid medium #d9d9d9;
     border-left: 1px;
     margin-bottom: 5px;
+    cursor:pointer;
 }
 
     /*info*/

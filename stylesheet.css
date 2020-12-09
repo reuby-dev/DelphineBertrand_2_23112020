@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -240,7 +241,7 @@ input::placeholder {
 }
 
 .filter {
-    height: 35px;
+    height: 40px;
     margin-left: 25px;
     padding-right: 15px;
     white-space: nowrap;
@@ -271,7 +272,7 @@ input::placeholder {
     /* Hébergements */
 
 .hebergement {
-    max-width: 60%;
+    width: 66%;
 }
 
 .container {
@@ -285,7 +286,7 @@ input::placeholder {
 }
 
 .img-verti {
-    width: 245px;
+    width: 235px;
     height: 110px;
 }
 

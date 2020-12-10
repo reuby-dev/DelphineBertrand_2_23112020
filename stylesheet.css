@@ -318,12 +318,6 @@ input::placeholder {
     margin-bottom: 30px;
 }
 
-.common-img-size {
-   /* width: 100%;
-    height: 100%;
-    object-fit: cover;*/
-}
-
     /*Populaire*/
 
 #popular {
@@ -341,6 +335,7 @@ input::placeholder {
     width: 100%;
     padding: 5px;
 }
+
 
 .img-horiz {
     max-width: 35%;

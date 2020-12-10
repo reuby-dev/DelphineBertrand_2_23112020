@@ -1,40 +1,16 @@
+/* Mobile first queries /
 
-/*Smartphones portrait et LP*/
+/ Larger than mobile /
+@media (min-width: 400px) {}
 
-@media screen and (max-width: 1056px) {
+/ Larger than phablet /
+@media (min-width: 550px) {}
 
-    .hide-mobile {
-        display: none;
-    }
-}
+/ Larger than tablet /
+@media (min-width: 750px) {}
 
-/*Smartphones portrait et LP*/
+/ Larger than desktop /
+@media (min-width: 1000px) {}
 
-@media all and (max-width: 1056px) {
-
-    .thumbnail-verti {
-        width: 100%;
-    }
-}
-
-
-/*Petit Desktop*/
-
-@media (min-width: 1057px) and (max-width: 1315px) {
-
-    .thumbnail-verti {
-        width: 47%;
-    }
-
-    .hide-desktop {
-        display:none;
-    }
-}
-
-/*Au delà de 1315px*/
-
-@media (min-width: 1316px) {
-    .hide-desktop {
-        display:none;
-    }    
-}
+/ Larger than Desktop HD */
+@media (min-width: 1200px) {}

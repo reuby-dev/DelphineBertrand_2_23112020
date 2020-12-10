@@ -350,23 +350,32 @@ input::placeholder {
 
 /*Section 3 - Activité*/
 
-.big-thumbnail {
-    width:300px;
-    height:445px;
-}
+/*Mise en forme base*/
+.container {
+    background-color: blue;
+    border:solid red;
+    height: 445px;
+  }
+  
+  .big-box {
+    background-color:red;
+    border: solid black;
+    padding: 40px;
+    min-width: 300px;
+    margin-right:40px;
+  }
+  
+  .fit-box {
+    background-color:yellow;
+    border:solid green;
+    height: 50%;
+    min-width: 300px;
+    margin-right:40px;
+  }
 
-.fit-thumbnail {
-    width:300px;
-    height:200px;
-}
-
-.img-activity-big {
-    height: 87%;
-}
-
-.img-activity-fit {
-    height: 70%;
-}
+  .grow {
+      flex-grow:1;
+  }
 
 
   /*Footer*/

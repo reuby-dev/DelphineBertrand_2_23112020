@@ -1,26 +1,40 @@
 
 /*Smartphones portrait et LP*/
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1056px) {
 
     .hide-mobile {
-        display:none;
-        }
+        display: none;
+    }
 }
 
-/*Tablettes*/
-@media (min-width: 768px) and (max-width: 1024px){
+/*Smartphones portrait et LP*/
+
+@media all and (max-width: 1056px) {
+
+    .thumbnail-verti {
+        width: 100%;
+    }
+}
+
+
+/*Petit Desktop*/
+
+@media (min-width: 1057px) and (max-width: 1315px) {
+
+    .thumbnail-verti {
+        width: 47%;
+    }
 
     .hide-desktop {
         display:none;
     }
-
 }
 
-/*Desktop*/
+/*Au delà de 1315px*/
 
-@media (min-width: 1025px){
-
+@media (min-width: 1316px) {
     .hide-desktop {
         display:none;
-    }
+    }    
 }

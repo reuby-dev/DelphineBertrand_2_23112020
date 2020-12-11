@@ -1,5 +1,7 @@
 /* Règles générales */
 
+
+
 * {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -338,6 +340,7 @@ input::placeholder {
 
 .img-horiz {
     max-width: 35%;
+    min-width: 35%;
     height: 130px;
 }
 
@@ -349,7 +352,7 @@ input::placeholder {
 
 .big-box {
     width: 300px;
-    height:445px;
+    min-height:445px;
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 40px;

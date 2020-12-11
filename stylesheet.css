@@ -40,6 +40,12 @@ i {
     margin: auto;
 }
 
+.img-thumbnail {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .no-border {
     border: none;
 }
@@ -53,7 +59,11 @@ i {
 }
 
 .block {
-    display:block;
+    display: block;
+}
+
+.grow {
+    flex-grow: 1;
 }
 
     /*Radius*/
@@ -145,7 +155,7 @@ i {
 }
 
 .mar-bot-50 {
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
 .pad-20 {
@@ -161,7 +171,7 @@ i {
 }
 
 .pad-right-15 {
-    padding-right:15px;
+    padding-right: 15px;
 }
 
 .height-100-percent {
@@ -277,9 +287,7 @@ input::placeholder {
     margin-right: 15px;
 }
 
-
 /* Section 2 - Herbegements et populaires*/
-
 
     /* Hébergements */
 
@@ -300,12 +308,6 @@ input::placeholder {
     height: 110px;
 }
 
-.verti-img-size {
-    max-height: 100%;
-    min-width: 100%;
-    object-fit: cover;
-}
-
 .description-heberg {
     padding-left: 15px;
 }
@@ -316,7 +318,6 @@ input::placeholder {
 
 /*propriétés communes entre hébergement et cat populaire*/
 
-
 .common-thumbnail {
     background-color: white;
     margin-bottom: 30px;
@@ -325,7 +326,6 @@ input::placeholder {
     /*Populaire*/
 
 #popular {
-    width: 30%;
     min-width: 425px;
     max-height: 646px;
 }
@@ -336,50 +336,28 @@ input::placeholder {
 }
 
 .thumbnail-horiz {
-    width: 100%;
     padding: 5px;
 }
-
 
 .img-horiz {
     max-width: 35%;
     height: 130px;
 }
 
-.horiz-img-size {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
 /*Section 3 - Activité*/
 
-#activity {
-    margin-right: -40px;
-}
-
-/*Mise en forme base*/
 .container-activity {
     height: 445px;
     margin-bottom: 40px;
   }
-
   
 .big-box {
     width: 300px;
     margin-right: 40px;
-    height:100%;
-    overflow: hidden;
 }
 
-.container-img { 
+.container-img-big { 
     height: 86%;
-}
-
-.img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
 }
 
 .container-double {
@@ -389,17 +367,10 @@ input::placeholder {
   
 .fit-box {
     height: 45%;
-    overflow: hidden;
 }
 
 .container-img-fit { 
     height: 70%;
-}
-
-
-
-.grow {
-    flex-grow:1;
 }
 
 

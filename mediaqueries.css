@@ -1,16 +1,20 @@
-/* Mobile first queries /
 
-/ Larger than mobile /
-@media (min-width: 400px) {}
+@media (max-width: 768px) {
 
-/ Larger than phablet /
-@media (min-width: 550px) {}
 
-/ Larger than tablet /
-@media (min-width: 750px) {}
+}
 
-/ Larger than desktop /
-@media (min-width: 1000px) {}
+@media (max-width: 992px) {
 
-/ Larger than Desktop HD */
-@media (min-width: 1200px) {}
+    .desktop {
+        display: none;
+    }
+	
+}
+
+@media (min-width: 993px) {
+    .mobile {
+        display:none;
+    }
+
+}

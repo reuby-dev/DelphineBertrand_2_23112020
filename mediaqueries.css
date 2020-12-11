@@ -35,7 +35,17 @@
     .desktop {
         display: none;
     }
-    
+
+    header, #hebergement-pop-section {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #logo-signin {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
  }
 
 /* Large devices*/

@@ -13,8 +13,12 @@ body {
     /*Défini la taille maximum du contenu du site*/
 .max-layout {
     max-width: 1400px;
-    padding: 0 20px 0 20px;
     margin: auto;
+}
+
+header, section, #container-footer {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 input, button {

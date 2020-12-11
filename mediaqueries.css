@@ -79,31 +79,15 @@
     .mobile {
         display: none;
     }
-  }
+}
 
 /* Large devices*/
 
-@media (max-width: 1359px) {
-
-}
-
-
-/*Tablettes et petits laptops*/
-/*
-@media (max-width: 678px) {
-
+@media (max-width: 1400px) {
     
-
-    .big-box {
-        height: 205px;
-    }
-
-    .container-img-big { 
-        height: 70%;
-    }
-
-    .container-double, .big-box {
-        margin-right: 0;
+    #container-footer {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
 }

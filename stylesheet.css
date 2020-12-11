@@ -18,7 +18,7 @@ body {
     margin: auto;
 }
 
-header, section, #container-footer {
+header, section {
     margin-left: 20px;
     margin-right: 20px;
 }

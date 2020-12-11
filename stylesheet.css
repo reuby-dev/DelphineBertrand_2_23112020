@@ -135,7 +135,7 @@ i {
     /*Tailles, margin et padding*/
 
 .text-center {
-    text-align:center;
+    text-align: center;
 }
 
 .vert-center {
@@ -209,14 +209,6 @@ header {
 }
 
 /*Mobile Header*/
-
-#nav-mobile {
-    border-bottom: solid medium #F2F2F2;
-}
-
-.text-align {
-    text-align: center;
-}
 
 #active-mobile {
     border-bottom: solid medium #0065FC;   

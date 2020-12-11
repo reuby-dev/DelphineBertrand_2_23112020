@@ -1,57 +1,84 @@
+/* Smartphones*/
+@media (max-width: 767px) { 
 
-@media (max-width: 768px) {
-
-    #logo-signin, #abstract {
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    
     #search {
         width: 100%;
     }
 
     button {
-        width:10%;
+        width: 10%;
     }
 
     input {
-        width:80%;
+        width: 80%;
     }
-
+    
     #hebergement-pop-section {
         flex-wrap: wrap-reverse;
         margin-bottom: 0;
+    }
+
+    #container-hebergement {
+        min-width: 100%;
+        background-color: white;
     }
 
     #popular {
         border-radius: 0;
     }
 
-    #popular, #container-hebergement {
-        min-width: 100%;
-    }
-
-    #container-hebergement {
-        margin-right: 0;
-        background-color: white;
-    }
-
-    .container-double {
-        margin-right: 0;
-    }
-
 }
 
-@media (max-width: 992px) {
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) { 
 
     .desktop {
         display: none;
     }
-	
+    
+ }
+
+/* Large devices*/
+
+@media (max-width: 1359px) {
+
 }
 
+/*Mediaqueries pour faire disparaitre les éléments réservés aux mobiles*/
 @media (min-width: 993px) {
+
     .mobile {
-        display:none;
+        display: none;
     }
+  }
+
+
+
+
+/*Tablettes et petits laptops*/
+/*
+@media (max-width: 678px) {
+
+    
+
+    .big-box {
+        height: 205px;
+    }
+
+    .container-img-big { 
+        height: 70%;
+    }
+
+    .container-double, .big-box {
+        margin-right: 0;
+    }
+
+
+    #logo-signin, #abstract, #activity, #container-footer {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    
+	
 }

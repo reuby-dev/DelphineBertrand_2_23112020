@@ -164,6 +164,10 @@ i {
     padding-right:15px;
 }
 
+.height-100-percent {
+    height: 100%;
+}
+
 .width-100-percent {
     width:100%;
 }
@@ -350,19 +354,21 @@ input::placeholder {
 
 /*Section 3 - Activité*/
 
+#activity {
+    margin-right: -40px;
+}
+
 /*Mise en forme base*/
 .container-activity {
-    background-color: coral;
-    border: solid red;
     height: 445px;
     margin-bottom: 40px;
   }
 
   
 .big-box {
-    background-color: white;
     width: 300px;
     margin-right: 40px;
+    height:100%;
     overflow: hidden;
 }
 
@@ -375,14 +381,22 @@ input::placeholder {
     width: 100%;
     object-fit: cover;
 }
+
+.container-double {
+    width: 300px;
+    margin-right: 40px;
+}
   
 .fit-box {
-    background-color: palevioletred;
-    border:solid purple;
-    height:45%;
-    min-width: 300px;
-    margin-right:40px;
+    height: 45%;
+    overflow: hidden;
 }
+
+.container-img-fit { 
+    height: 70%;
+}
+
+
 
 .grow {
     flex-grow:1;

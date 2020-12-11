@@ -1,6 +1,45 @@
 
 @media (max-width: 768px) {
 
+    #logo-signin, #abstract {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    #search {
+        width: 100%;
+    }
+
+    button {
+        width:10%;
+    }
+
+    input {
+        width:80%;
+    }
+
+    #hebergement-pop-section {
+        flex-wrap: wrap-reverse;
+        margin-bottom: 0;
+    }
+
+    #popular {
+        border-radius: 0;
+    }
+
+    #popular, #container-hebergement {
+        min-width: 100%;
+    }
+
+    #container-hebergement {
+        margin-right: 0;
+        background-color: white;
+    }
+
+    .container-double {
+        margin-right: 0;
+    }
+
 }
 
 @media (max-width: 992px) {

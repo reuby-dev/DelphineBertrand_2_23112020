@@ -48,7 +48,7 @@
 
         <!--Logo et barre de Nav Smartphone-->
         <header class="mobile">
-            <div class="flex space-between mar-bot-50">
+            <div id="logo-signin" class="flex space-between mar-bot-50">
                 <img src="assets/logo/Reservia.svg" alt="logo Reservia" class="pad-right-15">
                 <a href="#" class="bold color-blue vert-center">S'inscrire</a>
             </div>
@@ -65,8 +65,7 @@
         </header>
 
         <!-- 1ere section contenant descriptif site + search bar + filtres-->
-        <!--descriptif-->
-        <section>
+        <section id="abstract">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
 
@@ -109,9 +108,9 @@
         </section>
 
         <!--2eme section contenant Hébergements et + Populaire-->
-        <section id="hebergement" class="flex space-between mar-bot-50">
+        <section id="hebergement-pop-section" class="flex space-between mar-bot-50">
 
-            <div class="mar-bot-15 pad-40 border-radius-15 background-grey hebergement">
+            <div id="container-hebergement" class="mar-bot-15 pad-40 border-radius-15 background-grey">
                 <h2>Hébergements à Marseille</h2>
 
                 <div class="flex wrap space-between">
@@ -293,13 +292,13 @@
 
             <div class="flex wrap">
                 <div class="container-activity grow flex wrap">
-                    <div class="big-box grow border-radius-15 box-shadow height-100-percent overflow">
+                    <div class="big-box grow border-radius-15 box-shadow overflow">
                         <div class="container-img-big">
                             <img src="assets/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="img-thumbnail" />
                         </div>
                         <h3 class="pad-20">Vieux port</h3>
                     </div>
-                    <div class="grow flex column space-between height-100-percent container-double">
+                    <div class="grow flex column space-between container-double">
                         <div class="fit-box box-shadow border-radius-15 overflow">
                             <div class="container-img-fit">
                                 <img src="assets/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="img-thumbnail" />
@@ -314,15 +313,16 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="container-activity grow flex wrap">
-                    <div class="big-box grow border-radius-15 box-shadow height-100-percent overflow">
+                    <div class="big-box grow border-radius-15 box-shadow overflow">
                         <div class="container-img-big">
                             <img src="assets/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                                 class="img-thumbnail" />
                         </div>
                         <h3 class="pad-20">Parc National des Calanques</h3>
                     </div>
-                    <div class="grow flex column space-between height-100-percent container-double">
+                    <div class="grow flex column space-between container-double">
                         <div class="fit-box box-shadow border-radius-15 overflow">
                             <div class="container-img-fit">
                                 <img src="assets/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg"
@@ -339,6 +339,7 @@
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </section>

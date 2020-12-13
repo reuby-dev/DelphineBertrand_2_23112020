@@ -1,7 +1,5 @@
 /* Règles générales */
 
-
-
 * {
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -245,14 +243,22 @@ button {
 input {
     width: 250px;
     height: 35px;
+    padding-left: 20px;
 }
 
 input::placeholder {
     color: black;
-    padding-left: 20px;
+    opacity: 1; /*permet au placeholder d'apparaitre en noir
+    et non en gris sur Firefox*/
 }
+    
 
     /*Filtres*/
+
+#word-filter {
+    margin-right:20px;
+    margin-top:22px;
+}
 
 .round-icon {
     height: 40px;
@@ -263,14 +269,14 @@ input::placeholder {
 
 .filter {
     height: 40px;
-    margin-left: 25px;
     padding-right: 15px;
     white-space: nowrap;
     align-items: center;
     border: solid medium #d9d9d9;
     border-left: 1px;
-    margin-bottom: 5px;
-    cursor:pointer;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
 }
 
     /*info*/

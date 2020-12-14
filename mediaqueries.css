@@ -18,7 +18,7 @@
         margin-top:0;
     }
     
-    #hebergement-pop-section {
+    #hebergement {
         flex-wrap: wrap-reverse;
         margin-bottom: 0;
     }
@@ -78,7 +78,7 @@
 
  }
 
-/*Mediaqueries pour faire disparaitre les éléments réservés aux mobiles*/
+/*Faire disparaitre les éléments réservés aux mobiles*/
 @media (min-width: 993px) {
 
     .mobile {

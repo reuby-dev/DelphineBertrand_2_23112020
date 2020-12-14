@@ -16,7 +16,7 @@ body {
     margin: auto;
 }
 
-header, section {
+header, section{
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -302,7 +302,6 @@ input::placeholder {
 }
 
 .thumbnail-verti {
-    flex-grow: 1;
     flex-basis: 0;
     min-width: 255px;
     margin-right: 28px;
@@ -362,6 +361,7 @@ input::placeholder {
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .container-img-big { 
@@ -375,6 +375,7 @@ input::placeholder {
 .fit-box {
     height: 205px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .container-img-fit { 

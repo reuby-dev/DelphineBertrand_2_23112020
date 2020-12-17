@@ -1,9 +1,5 @@
 /* Smartphones*/
-@media (max-width: 767px) { 
-
-    #search {
-        width: 100%;
-    }
+@media (max-width: 767px) {   
 
     button {
         width: 10%;
@@ -11,6 +7,47 @@
 
     input {
         width: 80%;
+    }
+
+    #signin {
+        order: 2;
+        margin-right: 20px;
+    }
+
+    #logo {
+        margin-left: 20px;
+    }
+
+    #active {
+        border-top:0;
+    }
+
+    header {
+        margin:0;
+    }
+
+    nav {
+        width:100%;
+    }
+
+    nav a {
+        padding: 0;
+    }
+
+    nav li {
+        width:50%;
+        text-align: center;
+        border-bottom: solid medium #0065FC;
+        padding: 20px 0;
+    }
+
+    #n-active {
+        border-bottom: solid medium #F2F2F2;
+    }
+    
+
+    #search {
+        width: 100%;
     }
 
     #word-filter {
@@ -66,14 +103,9 @@
         display: none;
     }
 
-    header, #hebergement {
+    #hebergement {
         margin-left: 0;
         margin-right: 0;
-    }
-
-    #logo-signin {
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
  }

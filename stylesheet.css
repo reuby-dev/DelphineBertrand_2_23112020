@@ -200,27 +200,32 @@ p {
 }
 
 /* Header */
+#logo {
+    order:1;
+    margin-right:auto;
+}
+
+nav {
+    order:2;
+}
+
+nav a {
+    padding: 60px 30px 30px 30px;
+}
+
+#signin {
+    order:3;
+    padding-left: 30px;
+    align-content: end;
+}
 
 header {
     padding: 50px 0;
+    align-items: flex-start;
 }
 
-.a-nav-desktop {
-    padding: 60px 25px 0 25px;
-}
-
-#active-desktop {
-    border-top:solid medium #0065FC;
-}
-
-/*Mobile Header*/
-
-#active-mobile {
-    border-bottom: solid medium #0065FC;   
-}
-
-#no-active-mobile {
-    border-bottom: solid medium #F2F2F2;   
+#active {
+    border-top: solid medium #0065FC;
 }
 
 /*section 1 - filtres et infos*/

@@ -29,40 +29,21 @@
 
 <body>
     <div class="max-layout">
-        <!--Logo et barre de Nav Desktop-->
-        <header class="flex wrap space-between desktop">
-            <img src="assets/logo/Reservia.svg" alt="logo Reservia">
+        <!--Logo et barre de Nav-->
+        <header class="flex wrap">
+            <img src="assets/logo/Reservia.svg" alt="logo Reservia" id="logo">
+            <a href="#" class="bold color-blue vert-center" id="signin">S'inscrire</a>
             <nav>
                 <ul class="flex wrap">
                     <li>
-                        <a href="#hebergement" class="color-blue a-nav-desktop" id="active-desktop">Hébergements</a>
+                        <a href="#hebergement" class="color-blue" id="active">Hébergements</a>
                     </li>
-                    <li>
-                        <a href="#activity" class="a-nav-desktop">Activités</a>
-                    </li>
-                    <li>
-                        <a href="#" class="bold color-blue a-nav-desktop">S'inscrire</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-
-        <!--Logo et barre de Nav Smartphone et tablette-->
-        <header class="mobile">
-            <div id="logo-signin" class="flex space-between mar-bot-50">
-                <img src="assets/logo/Reservia.svg" alt="logo Reservia" class="pad-right-15">
-                <a href="#" class="bold color-blue vert-center">S'inscrire</a>
-            </div>
-            <nav>
-                <ul class="flex no-wrap width-100-percent">
-                    <li class="width-50-percent pad-bot-15 text-center" id="active-mobile">
-                        <a href="#hebergement" class="color-blue">Hébergements</a>
-                    </li>
-                    <li class="width-50-percent pad-bot-15 text-center" id="no-active-mobile">
+                    <li id="n-active">
                         <a href="#activity">Activités</a>
                     </li>
                 </ul>
             </nav>
+            
         </header>
 
         <!-- 1ere section contenant descriptif site + search bar + filtres-->

@@ -391,10 +391,11 @@ input::placeholder {
       margin-top: 50px;
   }
 
-  footer > div > div {
-    width: 33%;
-    min-width: 300px;
-  }
+  #container-footer {
+    width:70%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
   /*Hover effect*/
 

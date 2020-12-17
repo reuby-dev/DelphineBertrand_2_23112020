@@ -85,14 +85,3 @@
         display: none;
     }
 }
-
-/* Large devices*/
-
-@media (max-width: 1400px) {
-    
-    #container-footer {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-}

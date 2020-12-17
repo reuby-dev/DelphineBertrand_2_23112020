@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve, en plein centre ville ou en pleine nature." />
+    <meta name="description"
+        content="Trouvez votre hébergement pour des vacances de rêve, en plein centre ville ou en pleine nature." />
     <title>Reservia - Hébergement pour vos vacances et séjours</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="mediaqueries.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Open Graph-->
     <meta property="og:site_name" content="Reservia" />
     <meta property="og:locale" content="fr_FR" />
@@ -75,8 +76,10 @@
                 <i class="fas fa-map-marker-alt color-black"></i>
                 <input type="text" id="localisation" name="localisation" placeholder="Marseille, France"
                     class="no-border bold flex vert-center">
-                <button class="no-border bold color-white desktop">Rechercher</button>
-                <button class="no-border bold color-white mobile"><i class="fas fa-search color-white"></i></button>
+                <button class="no-border">
+                    <div class="mobile"><i class="fas fa-search color-white"></i></div>
+                    <p class="bold color-white desktop">Rechercher</p>
+                </button>
             </div>
 
             <!--Filtres-->
@@ -292,46 +295,49 @@
                 <div class="grow flex wrap">
                     <div class="big-box grow border-radius-15 box-shadow overflow">
                         <div class="container-img-big">
-                            <img src="assets/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port" class="img-thumbnail" />
+                            <img src="assets/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                alt="vieux port" class="img-thumbnail" />
                         </div>
                         <h3 class="pad-20">Vieux port</h3>
                     </div>
                     <div class="grow flex column space-between container-double">
                         <div class="fit-box box-shadow border-radius-15 overflow">
                             <div class="container-img-fit">
-                                <img src="assets/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort de pomègues" class="img-thumbnail" />
+                                <img src="assets/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                    alt="fort de pomègues" class="img-thumbnail" />
                             </div>
                             <h3 class="pad-20">Fort de Pomègues</h3>
                         </div>
                         <div class="fit-box box-shadow border-radius-15 overflow">
                             <div class="container-img-fit">
-                                <img src="assets/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="iles du frioul" class="img-thumbnail" />
+                                <img src="assets/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                    alt="iles du frioul" class="img-thumbnail" />
                             </div>
                             <h3 class="pad-20">&Icirc;les du Frioul</h3>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="grow flex wrap">
                     <div class="big-box grow border-radius-15 box-shadow overflow">
                         <div class="container-img-big">
-                            <img src="assets/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parc national des calanques"
-                                class="img-thumbnail" />
+                            <img src="assets/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                                alt="parc national des calanques" class="img-thumbnail" />
                         </div>
                         <h3 class="pad-20">Parc National des Calanques</h3>
                     </div>
                     <div class="grow flex column space-between container-double">
                         <div class="fit-box box-shadow border-radius-15 overflow">
                             <div class="container-img-fit">
-                                <img src="assets/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre dame de la garde"
-                                    class="img-thumbnail" />
+                                <img src="assets/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                    alt="notre dame de la garde" class="img-thumbnail" />
                             </div>
                             <h3 class="pad-20">Notre-Dame-de-la-Garde</h3>
                         </div>
                         <div class="fit-box box-shadow border-radius-15 overflow">
                             <div class="container-img-fit">
-                                <img src="assets/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc longchamp"
-                                    class="img-thumbnail" />
+                                <img src="assets/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                    alt="parc longchamp" class="img-thumbnail" />
                             </div>
                             <h3 class="pad-20">Parc Longchamp</h3>
                         </div>
@@ -344,18 +350,20 @@
     </div>
 
     <footer class="background-grey">
-        <div id="container-footer" class="flex wrap space-between max-layout">
-            <div>
-                <h4>&Agrave; propos</h4>
-                <p>Fonctionnement du site <br>Conditions générales de vente <br>Données et confidentialité</p>
-            </div>
-            <div>
-                <h4>Nos hébergements</h4>
-                <p>Charte qualité <br>Soumettre votre hôtel</p>
-            </div>
-            <div>
-                <h4>Assistance</h4>
-                <p>Centre d'aide <br>Nous contacter</p>
+        <div class="max-layout">
+            <div id="container-footer" class="flex wrap space-between">
+                <div>
+                    <h4>&Agrave; propos</h4>
+                    <p>Fonctionnement du site <br>Conditions générales de vente <br>Données et confidentialité</p>
+                </div>
+                <div>
+                    <h4>Nos hébergements</h4>
+                    <p>Charte qualité <br>Soumettre votre hôtel</p>
+                </div>
+                <div>
+                    <h4>Assistance</h4>
+                    <p>Centre d'aide <br>Nous contacter</p>
+                </div>
             </div>
         </div>
     </footer>

@@ -101,7 +101,7 @@
 @media (max-width: 992px) { 
 
     .desktop {
-        display: none;
+        display: none!important;
     }
 
     #hebergement {
@@ -115,6 +115,6 @@
 @media (min-width: 993px) {
 
     .mobile {
-        display: none;
+        display: none!important;
     }
 }

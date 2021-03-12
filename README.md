@@ -1,6 +1,9 @@
 # Reservia
 Premier projet réalisé dans le cadre de ma formation Développeur web Openclassroom. Le but était d'intégrer une maquette fournie par un designer à un site web, en utilisant les languages HTML et CSS from scratch.
 
+![image](https://user-images.githubusercontent.com/74512723/110955792-3e3dfb00-834a-11eb-90a5-ab92b091b2ce.png)
+
+
 # Identité
 Reservia est une petite entreprise proposant un outil de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.
 

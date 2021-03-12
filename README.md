@@ -1,7 +1,8 @@
 # Reservia
 Premier projet réalisé dans le cadre de ma formation Développeur web Openclassroom. Le but était d'intégrer une maquette fournie par un designer à un site web, en utilisant les languages HTML et CSS from scratch.
 
-![image](https://user-images.githubusercontent.com/74512723/110955792-3e3dfb00-834a-11eb-90a5-ab92b091b2ce.png)
+![image](https://user-images.githubusercontent.com/74512723/110955792-3e3dfb00-834a-11eb-90a5-ab92b091b2ce.png) ![image](https://user-images.githubusercontent.com/74512723/110955937-675e8b80-834a-11eb-8772-ee4b55442905.png)
+
 
 
 # Identité
